@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<item-->
+        <!--android:id="@+id/nav_item_home"-->
+        <!--android:icon="@drawable/ic_back_arrow"-->
+        <!--android:title="@string/home" />-->
+
+    <item
+        android:id="@+id/nav_item_profile"
+        android:icon="@drawable/ic_profile_yellow"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/nav_item_pinpass"
+        android:icon="@drawable/ic_password"
+        android:title="@string/pin_dan_password" />
+
+    <item
+        android:id="@+id/nav_item_top_wallet"
+        android:icon="@drawable/ic_alamat"
+        android:title="@string/Topup_wallet" />
+
+    <!--<item-->
+        <!--android:id="@+id/nav_item_trans_pembayaran"-->
+        <!--android:icon="@drawable/ic_no_refferal"-->
+        <!--android:title="@string/konf_trans_pembayaran" />-->
+
+    <item
+        android:id="@+id/nav_item_call_us"
+        android:icon="@drawable/ic_tlp"
+        android:title="@string/call_us" />
+
+    <item
+        android:id="@+id/nav_item_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+
+
+    <!--<item android:title="Others">-->
+
+        <!--<menu>-->
+
+            <!--<item-->
+                <!--android:icon="@drawable/ic_logo_digipay"-->
+                <!--android:title="Spam" />-->
+
+            <!--<item-->
+                <!--android:icon="@drawable/ic_logo_digipay"-->
+                <!--android:title="Bin" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <!--<group android:id="@+id/group_settings_id">-->
+
+        <!--<item-->
+            <!--android:icon="@android:drawable/ic_menu_set_as"-->
+            <!--android:title="Settings" />-->
+
+        <!--<item-->
+            <!--android:icon="@android:drawable/ic_menu_set_as"-->
+            <!--android:title="Help" />-->
+    <!--</group>-->
+
+
+</menu>

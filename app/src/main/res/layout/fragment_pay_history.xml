@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_border_yellow"
+        android:drawableLeft="@android:drawable/ic_search_category_default"
+        android:hint="Cari nomor tujuan/meter..."
+        android:inputType="number"
+        android:textColorHint="@color/grey"
+        android:visibility="visible" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_border_yellow"
+        android:hint="Search ..."
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tvDataTransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Tidak Ada Data Transaksi"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>
